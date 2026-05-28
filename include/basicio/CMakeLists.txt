@@ -1,1 +1,0 @@
-project(cpp_basics)
