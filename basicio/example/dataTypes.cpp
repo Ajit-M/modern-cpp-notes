@@ -41,6 +41,7 @@ int main(){
   long double numLD{100000000000};
   printValueAndSize(numLD);
   
+  // Its better to have a scoped enum for avoiding the overlap with other enums
   enum class months {
     Jan,
     Feb,
